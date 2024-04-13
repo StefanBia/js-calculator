@@ -1,0 +1,65 @@
+#calc-container{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+
+#title{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+}
+.result-field{
+    background-color: black;
+    height: 60px;
+    width: 400px;
+}
+.first-row {
+    display: flex;
+    background-color: aquamarine;
+    width: 400px; 
+}
+
+.second-row {
+    display: flex;
+    background-color: aquamarine;
+    width: 400px; 
+}
+
+.third-row {
+    display: flex;
+    background-color: aquamarine;
+    width: 400px; 
+}
+
+.fourth-row {
+    display: flex;
+    background-color: aquamarine;
+    width: 400px; 
+}
+
+.seven, .eight, .nine, .plus, .four, .five, .six, .minus, .one, .two, .three, .divide, .multiply, .equal {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid black; 
+    height: 60px;
+}
+.zero{
+    flex: 2; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid black; 
+    height: 60px;
+}
