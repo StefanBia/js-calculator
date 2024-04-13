@@ -22,6 +22,8 @@
     background-color: black;
     height: 60px;
     width: 400px;
+    display: flex;
+    justify-content: right;
 }
 .first-row {
     display: flex;
@@ -43,7 +45,7 @@
 
 .fourth-row {
     display: flex;
-    background-color: aquamarine;
+    background-color: #7fffd4;
     width: 400px; 
 }
 
@@ -62,4 +64,23 @@
     align-items: center; 
     border: 1px solid black; 
     height: 60px;
+}
+
+.result{
+    font-size: 45px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.seven:hover, .eight:hover, .nine:hover, .plus:hover, .four:hover, .five:hover, .six:hover, .minus:hover, .one:hover, .two:hover, .three:hover, .divide:hover, .multiply:hover, .equal:hover, .zero:hover {
+    background-color: #b2f0e4; 
+}
+
+.seven:active, .eight:active, .nine:active, .plus:active, 
+.four:active, .five:active, .six:active, .minus:active, 
+.one:active, .two:active, .three:active, .divide:active, 
+.multiply:active, .equal:active, .zero:active {
+    background-color: #c0c0c0;
 }
