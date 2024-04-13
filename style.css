@@ -4,9 +4,14 @@
     justify-content: center;
 }
 
+.bck{
+    background-color: antiquewhite;
+}
+
 #header{
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 #title{
@@ -56,6 +61,7 @@
     align-items: center; 
     border: 1px solid black; 
     height: 60px;
+    font-weight: 700;
 }
 .zero{
     flex: 2; 
@@ -64,6 +70,7 @@
     align-items: center; 
     border: 1px solid black; 
     height: 60px;
+    font-weight: 700;
 }
 
 .result{
@@ -74,13 +81,24 @@
 }
 
 
-.seven:hover, .eight:hover, .nine:hover, .plus:hover, .four:hover, .five:hover, .six:hover, .minus:hover, .one:hover, .two:hover, .three:hover, .divide:hover, .multiply:hover, .equal:hover, .zero:hover {
+.seven:hover, .eight:hover, .nine:hover, .plus:hover, .four:hover, .five:hover, .six:hover, .minus:hover, .one:hover, .two:hover, .three:hover, .divide:hover, .multiply:hover, .equal:hover, .zero:hover, .clear-button:hover {
     background-color: #b2f0e4; 
 }
 
 .seven:active, .eight:active, .nine:active, .plus:active, 
 .four:active, .five:active, .six:active, .minus:active, 
 .one:active, .two:active, .three:active, .divide:active, 
-.multiply:active, .equal:active, .zero:active {
+.multiply:active, .equal:active, .zero:active, .clear-button:active {
     background-color: #c0c0c0;
+}
+
+.clear-button{
+    background-color: #7fffd4;
+    width: 398px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: 1px solid black; 
+    font-weight: 700;
 }
